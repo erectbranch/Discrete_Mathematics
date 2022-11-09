@@ -46,7 +46,7 @@ $$\{ (a, f(a))| a \in A, f(a) \in B \} \subseteq A \times B$$
 
 <br/>
 
-### <span style='background-color: #393E46; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;예제 1.1.1&nbsp;&nbsp;&nbsp;</span>
+### <span style='background-color: #393E46; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;📝 예제 1.1.1&nbsp;&nbsp;&nbsp;</span>
 
 - #### 단위함수와 합성함수
 
@@ -55,7 +55,9 @@ $$\{ (a, f(a))| a \in A, f(a) \in B \} \subseteq A \times B$$
 $$I_{A} : A \rightarrow B$$
 
 ```
-인공지능에서 연속적인 수치를 예측하는 회귀 문제를 다룰 때, 입력과 출력의 데이터 간 연속성을 유지하기 위해, (Scaling을 위한 Sigmoid, Step function 같은 함수를 사용하지 않고) 항등 함수를 사용했다.(y = x) (입력 = 출력)
+인공지능에서 연속적인 수치를 예측하는 회귀 문제를 다룰 때, 입력과 출력의 데이터 간 연속성을 유지하기 위해,
+(Scaling을 위한 Sigmoid, Step function 같은 함수를 사용하지 않고) 항등 함수를 사용했다.
+(y = x) (입력 = 출력)
 ```
 
 함수 $f: A \rightarrow B$와 함수 $g: B \rightarrow C$에 대해, 집합 A의 원소 $a \in A$를 원소 $g(f(a)) \in C$로 대응하는 함수를 정의할 때, 이 새 대응함수를 두 함수 $f, g$의 **합성함수(composite function)**이라 한다.
@@ -108,7 +110,7 @@ $$ f^{-1}: B \rightarrow A $$
 
 <br/>
 
-### <span style='background-color: #393E46; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;예제 1.1.2&nbsp;&nbsp;&nbsp;</span>
+### <span style='background-color: #393E46; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;📝 예제 1.1.2&nbsp;&nbsp;&nbsp;</span>
 
 - #### 내림함수와 올림함수
 
@@ -158,7 +160,7 @@ $$ \cap_{n} a_n = a_1 \cap a_{2} \cap \cdots $$
 
 <br/>
 
-### <span style='background-color: #393E46; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;예제 1.1.3&nbsp;&nbsp;&nbsp;</span>
+### <span style='background-color: #393E46; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;📝 예제 1.1.3&nbsp;&nbsp;&nbsp;</span>
 
 - $\{ a_n\} = \{ (-1)^n \}$ 수열의 합
 
@@ -190,7 +192,7 @@ $\sum_{j=1}^{\infty}a_j = \sum_{j=1}^{\infty}{(-1)^j} = -1+1-1+1-1+ \cdots$는 -
 
 <br/>
 
-### <span style='background-color: #393E46; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;정의 1.1.1&nbsp;&nbsp;&nbsp;</span>
+### <span style='background-color: #393E46; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;🔒 정의 1.1.1&nbsp;&nbsp;&nbsp;</span>
 
 - k계 선형 재귀식
 
@@ -210,11 +212,11 @@ $f(n) = 0$인 k계 선형 재귀식을 **k계 선형 동차 재귀식** ($k$ th-
 
 <br/>
 
-### <span style='background-color: #393E46; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;예제 1.1.4&nbsp;&nbsp;&nbsp;</span>
+### <span style='background-color: #393E46; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;📝 예제 1.1.4&nbsp;&nbsp;&nbsp;</span>
 
 세로X가로가 1X1인 노란색 사각형, 1X2인 파란색 사각형, 1X2인 빨간색 사각형이 각각 n개 있다. 이 사각형들로 1Xn 크기의 사각형을 만드는 방법의 수 $a_n$을 재귀함수로 나타내어라
 
-### <span style='background-color: #C2B2B2; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;풀이&nbsp;&nbsp;&nbsp;</span>
+### <span style='background-color: #C2B2B2; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;🔍 풀이&nbsp;&nbsp;&nbsp;</span>
 
 n = 1일 때 1X1인 노란색 사각형을 쓸 수 있다.($a_1 = 1$), n = 2일 때 노란색 2개 / 파란색 1개 / 빨간색 1개 총 세 가지 방법을 쓸 수 있다.($a_2 = 3$), 
 
@@ -228,7 +230,7 @@ n = 1일 때 1X1인 노란색 사각형을 쓸 수 있다.($a_1 = 1$), n = 2일 
 
 <br/>
 
-### <span style='background-color: #393E46; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;정의 1.1.2&nbsp;&nbsp;&nbsp;</span>
+### <span style='background-color: #393E46; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;🔒 정의 1.1.2&nbsp;&nbsp;&nbsp;</span>
 
 #### **n 팩토리얼**
 
@@ -256,7 +258,7 @@ n = 1일 때 1X1인 노란색 사각형을 쓸 수 있다.($a_1 = 1$), n = 2일 
 
 재귀함수의 일반항 또는 일반식을 **재귀식의 해**(solution of recurrence relations)라고 한다. 해를 구하는 기법은 다양하게 있다.
 
-### <span style='background-color: #393E46; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;예제 1.1.5&nbsp;&nbsp;&nbsp;</span>
+### <span style='background-color: #393E46; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;📝 예제 1.1.5&nbsp;&nbsp;&nbsp;</span>
 
 양의 정수 k에 대하여 재귀적으로 정의된 수열의 일반항을 구하라
 
@@ -264,7 +266,7 @@ n = 1일 때 1X1인 노란색 사각형을 쓸 수 있다.($a_1 = 1$), n = 2일 
 
 - (2) $a_n = na_{n-1} + 1, \, n \ge 1, \, a_0 = 0$
 
-### <span style='background-color: #C2B2B2; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;풀이&nbsp;&nbsp;&nbsp;</span>
+### <span style='background-color: #C2B2B2; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;🔍 풀이&nbsp;&nbsp;&nbsp;</span>
 
 (1)번 풀이
 
@@ -352,7 +354,7 @@ $$\qquad \qquad \quad \; = 2(n-1)u^n - (n-2)u^n = nu^n \; (n \ge 2)$$
 
 <br/>
 
-### <span style='background-color: #FB2575; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;정리 1.1.1&nbsp;&nbsp;&nbsp;</span>
+### <span style='background-color: #FB2575; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;💾 정리 1.1.1&nbsp;&nbsp;&nbsp;</span>
 
 2계 선형 동차 재귀식 $a_n = A a_{n-1} + B a_{n-2}, \; n \ge 2$로 정의된 수열의 일반항 $a_n$은 다음과 같다.
 
@@ -366,13 +368,13 @@ $$a_n = Cu^n + Dnu^n$$
 
 <br/>
 
-### <span style='background-color: #393E46; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;예제 1.1.7&nbsp;&nbsp;&nbsp;</span>
+### <span style='background-color: #393E46; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;📝 예제 1.1.7&nbsp;&nbsp;&nbsp;</span>
 
 아래 재귀수열의 일반항 $a_n$을 n으로 나타내어라.
 
 $a_n = a_{n-1} + 2a_{n-2}, \, n \ge 3$, $a_1 = 1$, $a_2 = 3$
 
-### <span style='background-color: #C2B2B2; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;풀이&nbsp;&nbsp;&nbsp;</span>
+### <span style='background-color: #C2B2B2; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;🔍 풀이&nbsp;&nbsp;&nbsp;</span>
 
 재귀식의 특성방정식은 아래와 같다.
 
@@ -390,7 +392,7 @@ $$ a_n = {2 \over 3} \cdot 2^n + {1 \over 3} (-1)^n, \; n \ge 1 $$
 
 k계 선형 동차 재귀식도 이와 유사하게 확장하면 수열의 일반항을 구할 수 있다.
 
-### <span style='background-color: #393E46; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;예제 1.1.8&nbsp;&nbsp;&nbsp;</span>
+### <span style='background-color: #393E46; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;📝 예제 1.1.8&nbsp;&nbsp;&nbsp;</span>
 
 아래 재귀함수를 만족하는 수열 $\{x_n\}$의 일반항을 구하여라.
 
@@ -399,7 +401,7 @@ x_0 = 0, x_1 = 2, x_2 = 6 \\
 x_n = 4x_{n-1} - x_{n-2} - 6x_{n-3}, \; (n \ge 3) \\
 \end{cases}$
 
-### <span style='background-color: #C2B2B2; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;풀이&nbsp;&nbsp;&nbsp;</span>
+### <span style='background-color: #C2B2B2; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;🔍 풀이&nbsp;&nbsp;&nbsp;</span>
 
 재귀식의 특성방정식
 
