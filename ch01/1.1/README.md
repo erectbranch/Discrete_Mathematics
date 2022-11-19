@@ -88,7 +88,7 @@ $$모든 \, 원소 \, b \in B \, 에 \, 대해 \, b = f(a)가 \, 되는 \, a \in
 
 - #### 단사함수
 
-대응되는 두 원소가 같으면 정의역의 대등한 원소가 같은 함수 $f$를 단사함수**(one-to-one function, injective function)라고 한다.
+대응되는 두 원소가 같으면 정의역의 대등한 원소가 같은 함수 $f$ 를 **단사함수**(one-to-one function, injective function)라고 한다.
 
 $$ f(a) = f(b) \, 이면 \, a = b $$
 
@@ -142,13 +142,13 @@ $$\lceil \quad \rceil : \mathbb{R} \rightarrow \mathbb{Z}$$
 
 ### 1.1.1.3 배열(수열)
 
-자연수 집합 $\mathbb{N} = \{1,2,3, \cdots \}$ 또는 음이 아닌 정수 집합 $\{0\} \, \cup \, \mathbb{N} = \{1,2,3, \cdots \}$을 정의역으로 하고, 이 정의역 각 수가 어떤 집합 A의 원소에 대응하는 함수를 **배열** 또는 **수열(sequence)라고 한다. 수열 함수의 치역을 $a_{1}, a_2, a_3, \cdots$ 또는 ${a_n}$로 표시한다.
+자연수 집합 $\mathbb{N} = \{1,2,3, \cdots \}$ 또는 음이 아닌 정수 집합 $\{0\} \, \cup \, \mathbb{N} = \{1,2,3, \cdots \}$을 정의역으로 하고, 이 정의역 각 수가 어떤 집합 A의 원소에 대응하는 함수를 **배열** 또는 **수열**(sequence)라고 한다. 수열 함수의 치역을 $a_{1}, a_2, a_3, \cdots$ 또는 ${a_n}$로 표시한다.
 
 - 수열의 합: 치역 $a_1, a_2, a_3$이 수의 개념을 가질 때, 수열의 합은 다음과 같이 표시한다.
 
 $$ \sum_{j=1}^{n} {a_j} = a_1 + a_2 + \cdots + a_n $$
 
-- 무한급수: 정의역이 무한개인 수열함수를 무한수열이라 한다. 이 무한수열의 합 $\sum_{j=1}^{\infty}{a_j}$를 **무한급수(inftyite series)라고 한다.
+- 무한급수: 정의역이 무한개인 수열함수를 무한수열이라 한다. 이 무한수열의 합 $\sum_{j=1}^{\infty}{a_j}$를 **무한급수**(infinite series)라고 한다.
 
 $$ \sum_{j=1}^{\infty} {a_j} = a_1 + a_2 + \cdots $$
 
@@ -396,7 +396,7 @@ k계 선형 동차 재귀식도 이와 유사하게 확장하면 수열의 일�
 
 아래 재귀함수를 만족하는 수열 $\{x_n\}$ 의 일반항을 구하여라.
 
-$\begin{cases} x_0 = 0, x_1 = 2, x_2 = 6 \\ x_n = 4x_{n-1} - x_{n-2} - 6x_{n-3}, \, \, (n \ge 3) \\ \end{cases}$
+$$ \begin{cases} x_0 = 0, x_1 = 2, x_2 = 6 \\ x_n = 4x_{n-1} - x_{n-2} - 6x_{n-3}, \, \, (n \ge 3) \\ \end{cases} $$
 
 ### <span style='background-color: #C2B2B2; color: #F7F7F7'>&nbsp;&nbsp;&nbsp;🔍 풀이&nbsp;&nbsp;&nbsp;</span>
 
