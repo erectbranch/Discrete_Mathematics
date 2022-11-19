@@ -250,8 +250,9 @@ $$ O(r, n) = n^r - |\cup_{i=1}^n B_i| $$
 
 $|\cup_{i=1}^n B_i|$ 에 포함 배제의 원리를 적용하면 아래와 같이 쓸 수 있다.
 
-$|\cup_{i=1}^n B_i| = \sum_{i=1}^n{|B_i|} - \sum_{1 \le i < j \le n}{|B_i \cap B_j|} \\
-\quad \quad \quad\quad \quad + \sum_{i < j < k}{|B_i \cap B_j \cap B_k|} - \cdots (-1)^{n-1}|\cap_{i=1}^n{B_i}|$
+$|\cup_{i=1}^n B_i| = \sum_{i=1}^n{|B_i|} - \sum_{1 \le i < j \le n}{|B_i \cap B_j|}$
+
+$\quad \quad \quad \quad \quad + \sum_{i < j < k}{|B_i \cap B_j \cap B_k|} - \cdots (-1)^{n-1}|\cap_{i=1}^n{B_i}|$
 
 각 항을 보면
 

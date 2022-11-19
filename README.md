@@ -25,7 +25,7 @@
 
 ### CHAPTER 01 함수, 알고리즘, 논리
 
-1.1 함수 / 2
+1.1 [함수](https://github.com/erectbranch/Discrete_Mathematics/tree/master/ch01/1.1) / 2
 
 1.2 알고리즘 / 42
 
@@ -45,7 +45,7 @@
 
 3.1 경우의 수 세기 / 162
 
-3.2 순열과 조합 / 188
+3.2 [순열과 조합](https://github.com/erectbranch/Discrete_Mathematics/tree/master/ch03/3.2) / 188
 
 3.3 분배와 분할 / 220
 
